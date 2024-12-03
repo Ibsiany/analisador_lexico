@@ -37,4 +37,5 @@ public enum TK {
     VIRGULA,
     DOISDOISPONTOS,
     DOISPONTOS,
+    NEW,
 }

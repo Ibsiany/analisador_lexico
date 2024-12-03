@@ -21,7 +21,7 @@
 identifier = [a-zA-Z]+
 number = [0-9]+
 white = [ \n\t\r]+ 
-float = [0-9]+(\.[0-9]+)?
+float = [0-9]?+(\.[0-9]+)
 char = "'" !([^]* "'" [^]*) ("'")
 comment_block = "{-" !([^]* "-}" [^]*) ("-}")
 comment_line = "--" !([^]* "\n" [^]*) ("\n")
@@ -39,6 +39,7 @@ comment_line = "--" !([^]* "\n" [^]*) ("\n")
     "null"          { return new Token(yyline, yycolumn, TK.NULL);}
     "true"          { return new Token(yyline, yycolumn, TK.TRUE);}
     "false"         { return new Token(yyline, yycolumn, TK.FALSE);}
+    "new"           { return new Token(yyline, yycolumn, TK.NEW);}
     "{"             { return new Token(yyline, yycolumn, TK.ABRECOLCHETE);}
     "}"             { return new Token(yyline, yycolumn, TK.FECHACOLCHETE);}
     "("             { return new Token(yyline, yycolumn, TK.ABREPARENTESES);}

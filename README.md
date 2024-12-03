@@ -6,8 +6,11 @@
 - **Flex**
 
 ## Rodando o projeto
-- rode
-```make file="nome_do_arquivo.lan"```
+- Compilar
+```make```
+
+- Rodar
+```java Main "./testes/nome_do_arquivo.lan"```
 
 ## Autores
 - **Ibsiany Dias Godinho - 20.2.8097**

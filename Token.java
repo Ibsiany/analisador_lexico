@@ -64,6 +64,8 @@ public class Token {
                 return "!=";
             case DOISPONTOS:
                 return ":";
+            case NEW:
+                return "new";
             case IGUALIGUAL:
                 return "==";
             default:

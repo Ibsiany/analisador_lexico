@@ -71,8 +71,8 @@ public class AnalisadorLexico {
     "\1\24\1\25\2\0\32\26\1\27\1\30\1\31\3\0"+
     "\1\32\2\26\1\33\1\34\1\35\2\26\1\36\2\26"+
     "\1\37\1\40\1\41\1\26\1\42\1\26\1\43\1\44"+
-    "\1\45\1\46\5\26\1\47\1\0\1\50\7\0\1\3"+
-    "\u01a2\0\2\3\326\0";
+    "\1\45\1\46\1\26\1\47\3\26\1\50\1\0\1\51"+
+    "\7\0\1\3\u01a2\0\2\3\326\0";
 
   private static int [] zzUnpackcmap_blocks() {
     int [] result = new int[768];
@@ -103,12 +103,13 @@ public class AnalisadorLexico {
     "\1\7\1\10\1\11\1\12\1\13\1\14\1\15\1\16"+
     "\1\17\1\20\1\21\1\22\1\23\1\24\1\25\1\26"+
     "\10\23\1\27\1\30\1\31\2\0\1\32\1\33\2\23"+
-    "\1\34\6\23\1\0\3\35\1\36\11\23\2\0\1\37"+
-    "\1\40\2\23\1\41\1\42\1\23\1\43\1\23\1\44"+
-    "\1\45\1\46\1\23\1\47\2\23\1\50\1\51";
+    "\1\34\7\23\1\0\3\35\1\36\4\23\1\37\5\23"+
+    "\2\0\1\40\1\41\2\23\1\42\1\43\1\23\1\44"+
+    "\1\23\1\45\1\46\1\47\1\23\1\50\2\23\1\51"+
+    "\1\52";
 
   private static int [] zzUnpackAction() {
-    int [] result = new int[82];
+    int [] result = new int[84];
     int offset = 0;
     offset = zzUnpackAction(ZZ_ACTION_PACKED_0, offset, result);
     return result;
@@ -133,20 +134,20 @@ public class AnalisadorLexico {
   private static final int [] ZZ_ROWMAP = zzUnpackRowMap();
 
   private static final String ZZ_ROWMAP_PACKED_0 =
-    "\0\0\0\51\0\122\0\173\0\51\0\51\0\51\0\51"+
-    "\0\51\0\51\0\51\0\244\0\51\0\51\0\315\0\366"+
-    "\0\51\0\51\0\u011f\0\51\0\u0148\0\51\0\51\0\51"+
-    "\0\u0171\0\u019a\0\u01c3\0\u01ec\0\u0215\0\u023e\0\u0267\0\u0290"+
-    "\0\u02b9\0\51\0\51\0\u02e2\0\u030b\0\51\0\51\0\u0334"+
-    "\0\u035d\0\u0148\0\u0386\0\u03af\0\u03d8\0\u0401\0\u042a\0\u0453"+
-    "\0\u047c\0\51\0\u04a5\0\u04ce\0\u030b\0\u04f7\0\u0520\0\u0549"+
-    "\0\u0572\0\u059b\0\u05c4\0\u05ed\0\u0616\0\u063f\0\u0668\0\u04a5"+
-    "\0\51\0\u0148\0\u0691\0\u06ba\0\u0148\0\u0148\0\u06e3\0\u0148"+
-    "\0\u070c\0\u0148\0\51\0\u0148\0\u0735\0\u0148\0\u075e\0\u0787"+
-    "\0\u0148\0\u0148";
+    "\0\0\0\52\0\124\0\176\0\52\0\52\0\52\0\52"+
+    "\0\52\0\52\0\52\0\250\0\52\0\52\0\322\0\374"+
+    "\0\52\0\52\0\u0126\0\52\0\u0150\0\52\0\52\0\52"+
+    "\0\u017a\0\u01a4\0\u01ce\0\u01f8\0\u0222\0\u024c\0\u0276\0\u02a0"+
+    "\0\u02ca\0\52\0\52\0\u02f4\0\u031e\0\52\0\52\0\u0348"+
+    "\0\u0372\0\u0150\0\u039c\0\u03c6\0\u03f0\0\u041a\0\u0444\0\u046e"+
+    "\0\u0498\0\u04c2\0\52\0\u04ec\0\u0516\0\u031e\0\u0540\0\u056a"+
+    "\0\u0594\0\u05be\0\u0150\0\u05e8\0\u0612\0\u063c\0\u0666\0\u0690"+
+    "\0\u06ba\0\u04ec\0\52\0\u0150\0\u06e4\0\u070e\0\u0150\0\u0150"+
+    "\0\u0738\0\u0150\0\u0762\0\u0150\0\52\0\u0150\0\u078c\0\u0150"+
+    "\0\u07b6\0\u07e0\0\u0150\0\u0150";
 
   private static int [] zzUnpackRowMap() {
-    int [] result = new int[82];
+    int [] result = new int[84];
     int offset = 0;
     offset = zzUnpackRowMap(ZZ_ROWMAP_PACKED_0, offset, result);
     return result;
@@ -173,40 +174,41 @@ public class AnalisadorLexico {
     "\1\10\1\11\1\12\1\13\1\14\1\15\1\16\1\17"+
     "\1\20\1\21\1\22\1\23\1\24\1\25\1\26\1\27"+
     "\1\30\2\25\1\31\1\32\1\33\1\25\1\34\1\35"+
-    "\1\36\1\37\1\25\1\40\1\25\1\41\1\42\52\0"+
-    "\2\3\1\0\1\3\70\0\1\43\41\0\1\44\51\0"+
-    "\1\45\1\0\1\17\51\0\1\46\53\0\1\47\52\0"+
-    "\1\25\3\0\15\25\30\0\1\25\3\0\5\25\1\50"+
-    "\7\25\30\0\1\25\3\0\1\51\14\25\30\0\1\25"+
-    "\3\0\3\25\1\52\7\25\1\53\1\25\30\0\1\25"+
-    "\3\0\1\54\14\25\30\0\1\25\3\0\14\25\1\55"+
-    "\30\0\1\25\3\0\11\25\1\56\3\25\30\0\1\25"+
-    "\3\0\2\25\1\57\12\25\30\0\1\25\3\0\11\25"+
-    "\1\60\3\25\17\0\1\61\33\0\2\44\1\62\1\63"+
-    "\1\64\44\44\20\0\1\65\56\0\1\25\3\0\12\25"+
-    "\1\66\2\25\30\0\1\25\3\0\5\25\1\67\7\25"+
-    "\30\0\1\25\3\0\2\25\1\70\12\25\30\0\1\25"+
-    "\3\0\4\25\1\71\10\25\30\0\1\25\3\0\5\25"+
-    "\1\72\7\25\30\0\1\25\3\0\4\25\1\73\10\25"+
-    "\30\0\1\25\3\0\1\74\12\25\1\75\1\25\30\0"+
-    "\1\25\3\0\14\25\1\76\2\0\15\61\1\77\33\61"+
-    "\2\100\1\101\50\100\1\62\46\100\26\0\1\25\3\0"+
-    "\2\25\1\102\12\25\30\0\1\25\3\0\12\25\1\103"+
-    "\2\25\30\0\1\25\3\0\11\25\1\104\3\25\30\0"+
-    "\1\25\3\0\7\25\1\105\5\25\30\0\1\25\3\0"+
-    "\5\25\1\106\7\25\30\0\1\25\3\0\7\25\1\107"+
-    "\5\25\30\0\1\25\3\0\1\25\1\110\13\25\30\0"+
-    "\1\25\3\0\14\25\1\111\30\0\1\25\3\0\2\25"+
-    "\1\112\12\25\2\0\15\61\1\77\32\61\1\113\26\0"+
-    "\1\25\3\0\2\25\1\114\12\25\30\0\1\25\3\0"+
-    "\1\115\14\25\30\0\1\25\3\0\13\25\1\116\1\25"+
-    "\30\0\1\25\3\0\11\25\1\117\3\25\30\0\1\25"+
-    "\3\0\13\25\1\120\1\25\30\0\1\25\3\0\7\25"+
-    "\1\121\5\25\30\0\1\25\3\0\2\25\1\122\12\25"+
-    "\2\0";
+    "\1\36\1\37\1\25\1\40\2\25\1\41\1\42\53\0"+
+    "\2\3\1\0\1\3\71\0\1\43\42\0\1\44\52\0"+
+    "\1\45\1\0\1\17\52\0\1\46\54\0\1\47\53\0"+
+    "\1\25\3\0\16\25\30\0\1\25\3\0\5\25\1\50"+
+    "\10\25\30\0\1\25\3\0\1\51\15\25\30\0\1\25"+
+    "\3\0\3\25\1\52\7\25\1\53\2\25\30\0\1\25"+
+    "\3\0\1\54\15\25\30\0\1\25\3\0\2\25\1\55"+
+    "\11\25\1\56\1\25\30\0\1\25\3\0\11\25\1\57"+
+    "\4\25\30\0\1\25\3\0\2\25\1\60\13\25\30\0"+
+    "\1\25\3\0\11\25\1\61\4\25\17\0\1\62\34\0"+
+    "\2\44\1\63\1\64\1\65\45\44\20\0\1\66\57\0"+
+    "\1\25\3\0\12\25\1\67\3\25\30\0\1\25\3\0"+
+    "\5\25\1\70\10\25\30\0\1\25\3\0\2\25\1\71"+
+    "\13\25\30\0\1\25\3\0\4\25\1\72\11\25\30\0"+
+    "\1\25\3\0\15\25\1\73\30\0\1\25\3\0\5\25"+
+    "\1\74\10\25\30\0\1\25\3\0\4\25\1\75\11\25"+
+    "\30\0\1\25\3\0\1\76\12\25\1\77\2\25\30\0"+
+    "\1\25\3\0\14\25\1\100\1\25\2\0\15\62\1\101"+
+    "\34\62\2\102\1\103\51\102\1\63\47\102\26\0\1\25"+
+    "\3\0\2\25\1\104\13\25\30\0\1\25\3\0\12\25"+
+    "\1\105\3\25\30\0\1\25\3\0\11\25\1\106\4\25"+
+    "\30\0\1\25\3\0\7\25\1\107\6\25\30\0\1\25"+
+    "\3\0\5\25\1\110\10\25\30\0\1\25\3\0\7\25"+
+    "\1\111\6\25\30\0\1\25\3\0\1\25\1\112\14\25"+
+    "\30\0\1\25\3\0\14\25\1\113\1\25\30\0\1\25"+
+    "\3\0\2\25\1\114\13\25\2\0\15\62\1\101\33\62"+
+    "\1\115\26\0\1\25\3\0\2\25\1\116\13\25\30\0"+
+    "\1\25\3\0\1\117\15\25\30\0\1\25\3\0\13\25"+
+    "\1\120\2\25\30\0\1\25\3\0\11\25\1\121\4\25"+
+    "\30\0\1\25\3\0\13\25\1\122\2\25\30\0\1\25"+
+    "\3\0\7\25\1\123\6\25\30\0\1\25\3\0\2\25"+
+    "\1\124\13\25\2\0";
 
   private static int [] zzUnpacktrans() {
-    int [] result = new int[1968];
+    int [] result = new int[2058];
     int offset = 0;
     offset = zzUnpacktrans(ZZ_TRANS_PACKED_0, offset, result);
     return result;
@@ -251,11 +253,11 @@ public class AnalisadorLexico {
   private static final String ZZ_ATTRIBUTE_PACKED_0 =
     "\1\0\1\11\2\1\7\11\1\1\2\11\2\1\2\11"+
     "\1\1\1\11\1\1\3\11\11\1\2\11\2\0\2\11"+
-    "\11\1\1\0\1\11\14\1\2\0\1\11\11\1\1\11"+
+    "\12\1\1\0\1\11\15\1\2\0\1\11\11\1\1\11"+
     "\7\1";
 
   private static int [] zzUnpackAttribute() {
-    int [] result = new int[82];
+    int [] result = new int[84];
     int offset = 0;
     offset = zzUnpackAttribute(ZZ_ATTRIBUTE_PACKED_0, offset, result);
     return result;
@@ -748,207 +750,212 @@ public class AnalisadorLexico {
             { throw new Error("Caractere inválido: " + yytext() + " na linha " + yyline + ", coluna " + yycolumn);
             }
           // fall through
-          case 42: break;
+          case 43: break;
           case 2:
             { /* Ignorar espaços em branco */
             }
           // fall through
-          case 43: break;
+          case 44: break;
           case 3:
             { return new Token(yyline, yycolumn, TK.PORCENTAGEM);
             }
           // fall through
-          case 44: break;
+          case 45: break;
           case 4:
             { return new Token(yyline, yycolumn, TK.ASPAS);
             }
           // fall through
-          case 45: break;
+          case 46: break;
           case 5:
             { return new Token(yyline, yycolumn, TK.ABREPARENTESES);
             }
           // fall through
-          case 46: break;
+          case 47: break;
           case 6:
             { return new Token(yyline, yycolumn, TK.FECHAPARENTESES);
             }
           // fall through
-          case 47: break;
+          case 48: break;
           case 7:
             { return new Token(yyline, yycolumn, TK.ASTERISCO);
             }
           // fall through
-          case 48: break;
+          case 49: break;
           case 8:
             { return new Token(yyline, yycolumn, TK.MAIS);
             }
           // fall through
-          case 49: break;
+          case 50: break;
           case 9:
             { return new Token(yyline, yycolumn, TK.VIRGULA);
             }
           // fall through
-          case 50: break;
+          case 51: break;
           case 10:
             { return new Token(yyline, yycolumn, TK.MENOS);
             }
           // fall through
-          case 51: break;
+          case 52: break;
           case 11:
             { return new Token(yyline, yycolumn, TK.DOT);
             }
           // fall through
-          case 52: break;
+          case 53: break;
           case 12:
             { return new Token(yyline, yycolumn, TK.BARRA);
             }
           // fall through
-          case 53: break;
+          case 54: break;
           case 13:
             { return new Token(yyline, yycolumn, TK.INT, Integer.parseInt(yytext()));
             }
           // fall through
-          case 54: break;
+          case 55: break;
           case 14:
             { return new Token(yyline, yycolumn, TK.DOISPONTOS);
             }
           // fall through
-          case 55: break;
+          case 56: break;
           case 15:
             { return new Token(yyline, yycolumn, TK.PV);
             }
           // fall through
-          case 56: break;
+          case 57: break;
           case 16:
             { return new Token(yyline, yycolumn, TK.MENOR);
             }
           // fall through
-          case 57: break;
+          case 58: break;
           case 17:
             { return new Token(yyline, yycolumn, TK.EQ);
             }
           // fall through
-          case 58: break;
+          case 59: break;
           case 18:
             { return new Token(yyline, yycolumn, TK.MAIOR);
             }
           // fall through
-          case 59: break;
+          case 60: break;
           case 19:
             { return new Token(yyline, yycolumn, TK.ID, yytext());
             }
           // fall through
-          case 60: break;
+          case 61: break;
           case 20:
             { return new Token(yyline, yycolumn, TK.ABRECHAVE);
             }
           // fall through
-          case 61: break;
+          case 62: break;
           case 21:
             { return new Token(yyline, yycolumn, TK.BARRAINVERTIDA);
             }
           // fall through
-          case 62: break;
+          case 63: break;
           case 22:
             { return new Token(yyline, yycolumn, TK.FECHACHAVE);
             }
           // fall through
-          case 63: break;
+          case 64: break;
           case 23:
             { return new Token(yyline, yycolumn, TK.ABRECOLCHETE);
             }
           // fall through
-          case 64: break;
+          case 65: break;
           case 24:
             { return new Token(yyline, yycolumn, TK.FECHACOLCHETE);
             }
           // fall through
-          case 65: break;
+          case 66: break;
           case 25:
             { return new Token(yyline, yycolumn, TK.DIFERENTE);
             }
           // fall through
-          case 66: break;
+          case 67: break;
           case 26:
             { return new Token(yyline, yycolumn, TK.DOISDOISPONTOS);
             }
           // fall through
-          case 67: break;
+          case 68: break;
           case 27:
             { return new Token(yyline, yycolumn, TK.IGUALIGUAL);
             }
           // fall through
-          case 68: break;
+          case 69: break;
           case 28:
             { return new Token(yyline, yycolumn, TK.IF);
             }
           // fall through
-          case 69: break;
+          case 70: break;
           case 29:
             { 
             }
           // fall through
-          case 70: break;
+          case 71: break;
           case 30:
             { return new Token(yyline, yycolumn, TK.FLOAT, Float.parseFloat(yytext()));
             }
           // fall through
-          case 71: break;
-          case 31:
-            { /* Ignorar comentarios em linha */
-            }
-          // fall through
           case 72: break;
-          case 32:
-            { return new Token(yyline, yycolumn, TK.ELSE);
+          case 31:
+            { return new Token(yyline, yycolumn, TK.NEW);
             }
           // fall through
           case 73: break;
-          case 33:
-            { return new Token(yyline, yycolumn, TK.MAIN);
+          case 32:
+            { /* Ignorar comentarios em linha */
             }
           // fall through
           case 74: break;
-          case 34:
-            { return new Token(yyline, yycolumn, TK.NULL);
+          case 33:
+            { return new Token(yyline, yycolumn, TK.ELSE);
             }
           // fall through
           case 75: break;
-          case 35:
-            { return new Token(yyline, yycolumn, TK.READ);
+          case 34:
+            { return new Token(yyline, yycolumn, TK.MAIN);
             }
           // fall through
           case 76: break;
-          case 36:
-            { return new Token(yyline, yycolumn, TK.TRUE);
+          case 35:
+            { return new Token(yyline, yycolumn, TK.NULL);
             }
           // fall through
           case 77: break;
-          case 37:
-            { /* Ignorar comentarios em bloco */
+          case 36:
+            { return new Token(yyline, yycolumn, TK.READ);
             }
           // fall through
           case 78: break;
-          case 38:
-            { return new Token(yyline, yycolumn, TK.FALSE);
+          case 37:
+            { return new Token(yyline, yycolumn, TK.TRUE);
             }
           // fall through
           case 79: break;
-          case 39:
-            { return new Token(yyline, yycolumn, TK.PRINT);
+          case 38:
+            { /* Ignorar comentarios em bloco */
             }
           // fall through
           case 80: break;
-          case 40:
-            { return new Token(yyline, yycolumn, TK.RETURN);
+          case 39:
+            { return new Token(yyline, yycolumn, TK.FALSE);
             }
           // fall through
           case 81: break;
-          case 41:
-            { return new Token(yyline, yycolumn, TK.ITERATE);
+          case 40:
+            { return new Token(yyline, yycolumn, TK.PRINT);
             }
           // fall through
           case 82: break;
+          case 41:
+            { return new Token(yyline, yycolumn, TK.RETURN);
+            }
+          // fall through
+          case 83: break;
+          case 42:
+            { return new Token(yyline, yycolumn, TK.ITERATE);
+            }
+          // fall through
+          case 84: break;
           default:
             zzScanError(ZZ_NO_MATCH);
         }
