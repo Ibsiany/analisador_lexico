@@ -21,7 +21,7 @@
 identifier = [a-zA-Z]+
 number = [0-9]+
 white = [ \n\t\r]+ 
-float = [0-9]?+(\.[0-9]+)
+float = ([0-9]+)?(\.[0-9]+)
 char = "'" !([^]* "'" [^]*) ("'")
 comment_block = "{-" !([^]* "-}" [^]*) ("-}")
 comment_line = "--" !([^]* "\n" [^]*) ("\n")
